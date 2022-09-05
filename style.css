@@ -85,7 +85,7 @@ div#curiosidades {
     color: white;
     height: auto;
     padding: 10px;
-    margin-left: -4px;
+    margin: -10px;
 }
 div#curiosidades:hover {
     text-decoration: underline;
@@ -97,7 +97,7 @@ div#fale {
     color: white;
     height: auto;
     padding: 10px;
-    margin-left: -4px;
+    margin: -10px;
 }
 div#fale:hover {
     text-decoration: underline;
