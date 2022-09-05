@@ -179,7 +179,7 @@ footer > a {
 
 }
 div#lista {
-    background-color: #5cd66e;
+    background-color: #85ff97;
     padding: 10px;
     margin-top: 10px;
     border-radius: 46px 46px 20px 20px;
@@ -191,6 +191,6 @@ div#lista > h3 {
     margin: -10px -10px 0px -10px;
     border-radius: 46px 46px 0px 0px;
 }
-div > a {
+div#menu > a {
     background-color: transparent;
 }
