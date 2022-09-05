@@ -61,6 +61,7 @@ div#home {
     color: white;
     height: auto;
     padding: 10px;
+    margin: -8px;
 }   
 div#home:hover {
     text-decoration: underline;
@@ -185,7 +186,7 @@ div#lista {
     border-radius: 46px 46px 20px 20px;
 }
 div#lista > h3 {
-    background-color: #4a9456;
+    background-color: #74f88a;
     height: 45px;
     text-align: center;
     margin: -10px -10px 0px -10px;
@@ -193,8 +194,4 @@ div#lista > h3 {
 }
 div#menu > a {
     background-color: transparent;
-    margin-top: -8px;
-    margin-bottom: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
 }
