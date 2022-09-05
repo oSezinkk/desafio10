@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: #93F5A1;
+    background-color: #beffb1;
     font-family: var(--fonte-normal);
     color: #0a1a0d;
 }
@@ -47,7 +47,7 @@ header > p {
 
 }
 div#corpo {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 800px;
     height: 1000px;
     margin: auto;
@@ -61,7 +61,9 @@ div#home {
     color: white;
     height: auto;
     padding: 10px;
-    margin: -10px;
+    margin-left: -6px;
+    margin-right: -6px;
+    
 }   
 div#home:hover {
     text-decoration: underline;
@@ -73,7 +75,9 @@ div#noticias {
     color: white;
     height: auto;
     padding: 10px;
-    margin: -10px;
+    margin-left: -6px;
+    margin-right: -6px;
+    
 }
 div#noticias:hover {
     text-decoration: underline;
@@ -85,7 +89,8 @@ div#curiosidades {
     color: white;
     height: auto;
     padding: 10px;
-    margin: -10px;
+    margin-left: -6px;
+    margin-right: -6px;
 }
 div#curiosidades:hover {
     text-decoration: underline;
@@ -97,7 +102,8 @@ div#fale {
     color: white;
     height: auto;
     padding: 10px;
-    margin: -10px;
+    margin-left: -6px;
+    margin-right: -6px;
 }
 div#fale:hover {
     text-decoration: underline;
@@ -108,9 +114,9 @@ abbr {
     text-decoration: none;
 }
 nav {
-    background-color: rgb(223, 255, 197);
+    background-color: rgb(175, 255, 179);
     height: auto;
-    margin-top: -10;
+    margin-top: -1px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -180,13 +186,13 @@ footer > a {
 
 }
 div#lista {
-    background-color: #85ff97;
+    background-color: #b0ffbb;
     padding: 10px;
     margin-top: 10px;
     border-radius: 46px 46px 20px 20px;
 }
 div#lista > h3 {
-    background-color: #74f88a;
+    background-color: #51c764;
     height: 45px;
     text-align: center;
     margin: -10px -10px 0px -10px;
@@ -194,4 +200,8 @@ div#lista > h3 {
 }
 div#menu > a {
     background-color: transparent;
+}
+div#metade {
+    margin-left: -10px;
+    margin-right: -10px;
 }
