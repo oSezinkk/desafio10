@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,200&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root {
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-normal: 'Barlow Semi Condensed', sans-serif;
+    --fonte-android: 'Android', cursive;
+}
+
+body {
+    background-color: #93F5A1;
+    font-family: var(--fonte-normal);
+    color: #0a1a0d;
+}
+header {
+    background-image: linear-gradient(#5cd66e, #32633a);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 2px;
+    box-shadow: black 0px 0px 10px;
+    color: rgb(255, 255, 255);
+    font-family: var(--fonte-destaque);
+
+}
+header > h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+header > p {
+    font-size: 20px;
+
+}
+div#corpo {
+    background-color: white;
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+
+}
+div#menu {
+    text-align: left;
+}
+div#home {
+    display: inline-block;
+    color: white;
+    height: auto;
+    padding: 10px;
+}   
+div#home:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.219);
+    transition-duration: 0.5s;
+}
+div#noticias {
+    display: inline-block;
+    color: white;
+    height: auto;
+    padding: 10px;
+    margin-left: -4px;
+}
+div#noticias:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.219);
+    transition-duration: 0.5s;
+}
+div#curiosidades {
+    display: inline-block;
+    color: white;
+    height: auto;
+    padding: 10px;
+    margin-left: -4px;
+}
+div#curiosidades:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.219);
+    transition-duration: 0.5s;
+}
+div#fale {
+    display: inline-block;
+    color: white;
+    height: auto;
+    padding: 10px;
+    margin-left: -4px;
+}
+div#fale:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.219);
+    transition-duration: 0.5s;
+}
+abbr {
+    text-decoration: none;
+}
+nav {
+    background-color: rgb(223, 255, 197);
+    height: auto;
+    margin-top: -10;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #123318;
+}
+nav > h1 {
+    font-family: var(--fonte-android);
+    color: #123318;
+}
+nav > h2 {
+    font-family: var(--fonte-android);
+    
+    padding: 8px;
+    background-image: linear-gradient(to right, rgba(33, 185, 91, 0.527),transparent);
+}
+footer {
+    background-color: #0a1a0d;
+    color: white;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    padding: 6px;
+    
+}
+img {
+    width: 100%;
+}
+p {
+    font-size: 20px;
+}
+iframe {
+    width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    min-width: 400px;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    
+}
+img#bug {
+    max-height: 500px;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+a {
+    background-image: linear-gradient(to right ,rgb(16, 102, 38),rgba(255, 255, 255, 0.212)255, 255, 255);
+    color: black;
+    text-decoration: none;
+    background-color: #5cd66e59;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer > a {
+    color: white;
+
+}
+div#lista {
+    background-color: #5cd66e;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 46px 46px 20px 20px;
+}
+div#lista > h3 {
+    background-color: #2b5c33;
+    height: 45px;
+    text-align: center;
+    margin: -10px -10px 0px -10px;
+    border-radius: 46px 46px 0px 0px;
+}
