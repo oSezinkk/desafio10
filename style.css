@@ -61,7 +61,7 @@ div#home {
     color: white;
     height: auto;
     padding: 10px;
-    margin: -8px;
+    margin: -10px;
 }   
 div#home:hover {
     text-decoration: underline;
@@ -73,7 +73,7 @@ div#noticias {
     color: white;
     height: auto;
     padding: 10px;
-    margin-left: -4px;
+    margin: -10px;
 }
 div#noticias:hover {
     text-decoration: underline;
